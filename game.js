@@ -1,13 +1,11 @@
-//var playerSelection = prompt("Rock, Paper, or Scissors?");
-//console.log(playerSelection);
 
 var playerSelection = prompt("Please choose rock, paper, or scissors");
-return playerSelection;
+console.log(playerSelection.toLowerCase());
 
 var choices = ["rock", "paper", "scissors"];
 
 var computerSelection = choices[Math.floor(Math.random() * choices.length)];
-console.log(computerSelection);
+console.log(computerSelection.toLowerCase());
 
 function playRound(playerSelection, computerSelection) {
     if (playerSelection == "rock" && computerSelection == "paper") {
@@ -30,4 +28,7 @@ function playRound(playerSelection, computerSelection) {
 
 console.log(playRound(playerSelection, computerSelection));
 
+function game(number) {
+
+}
 
