@@ -9,20 +9,20 @@ console.log(computerSelection.toLowerCase());
 
 function playRound(playerSelection, computerSelection) {
     if (playerSelection == "rock" && computerSelection == "paper") {
-        return ("Computer Wins!");
+        return alert("Computer Wins!");
     } else if (playerSelection == "paper" && computerSelection == "scissors") {
-        return ("Computer Wins!");
+        return alert("Computer Wins!");
     } else if (playerSelection == "scissors" && computerSelection == "rock") {
-        return ("Computer Wins!");
+        return alert("Computer Wins!");
 
     } else if (playerSelection == "paper" && computerSelection == "rock") {
-        return ("You Win!");
+        return alert("You Win!");
     } else if (playerSelection == "scissors" && computerSelection == "paper") {
-        return ("You Win!");
+        return alert("You Win!");
     } else if (playerSelection == "rock" && computerSelection == "scissors") {
-        return ("You Win");
+        return alert("You Win");
     } else {
-        return ("It's a tie!!!");
+        return alert("It's a tie!!!");
     }
 }
 
